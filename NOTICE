@@ -1,0 +1,18 @@
+RYS-JEV
+Copyright 2026 David Ng
+
+This product includes software and model weights derived from StartLux-Decision
+(https://github.com/StartLuxLabs/StartLux-Decision), Copyright StartLux Labs.
+
+  - StartLux-Decision code: Apache License 2.0
+  - StartLux-Decision model weights: CC BY-NC 4.0 (non-commercial)
+
+Modifications in this project: the layer-duplication materializer (layers 41-48
+executed twice, symmetric alpha = 1.25 baked into the blocks' output projections),
+a bidirectional prompt-attention implementation for transformers 5.17+, the
+decision read-out, the /v1/systemone server, the CLI and the tests.
+
+The model weights distributed with this project are a derivative of
+StartLux-Decision-v1.1-27B-Instant and remain CC BY-NC 4.0: non-commercial use
+only. Commercial use requires a license from StartLux Labs. This is an
+unofficial research project, not affiliated with or endorsed by StartLux Labs.
